@@ -1,0 +1,33 @@
+UNIDAD 4 - ESTRUCTURAS NO LINEALES  (Tareas 4.2 y 4.3)
+=======================================================
+Lenguaje: C#   |   Visual Studio 2022/2026   |   Windows Forms   |   .NET 10
+
+CÓMO ABRIRLO
+1. Descomprime el ZIP.
+2. Abre EstructurasNoLineales.sln con Visual Studio (necesita la carga de trabajo
+   "Desarrollo de escritorio con .NET" y el SDK de .NET 10).
+3. Presiona F5. Para ver/editar la interfaz: doble clic en FormPrincipal.cs (abre el diseñador).
+
+ESTRUCTURA DEL PROYECTO
+  Modelos/
+    NodoABB.cs               Nodo (memoria dinámica con "new" y referencias).
+    ArbolBinarioBusqueda.cs  Insertar, Buscar, Eliminar (3 casos), Preorden, Inorden,
+                             Postorden, Altura, Mínimo, Máximo, EsABBValido.
+    Grafo.cs                 Lista de adyacencia, matriz de adyacencia, Dijkstra con traza,
+                             recorridos BFS y DFS.
+  Controles/
+    PanelArbol.cs            Control que dibuja el árbol.
+    PanelGrafo.cs            Control que dibuja el grafo y resalta el camino.
+  Pruebas/
+    PruebasABB.cs            Batería de pruebas y generación del reporte.
+  FormPrincipal.Designer.cs  TODA la interfaz creada en el diseñador (controles, eventos).
+  FormPrincipal.cs           Solo la lógica de los eventos.
+
+REPORTE DE PRUEBAS (entregable de la tarea 4.2)
+  Pestaña "Tarea 4.2": botón "Ejecutar pruebas de integridad" y luego
+  "Guardar reporte (.txt)". Ese archivo es el reporte que se entrega junto al código.
+
+PRUEBA DE LA TAREA 4.3
+  Pestaña "Tarea 4.3": "Cargar red de ejemplo" -> elegir Desde/Hasta -> "Calcular ruta más
+  corta (Dijkstra)". Se muestran la matriz, la lista de adyacencia, la traza paso a paso y
+  el camino resaltado en el dibujo. Las distancias del ejemplo son aproximadas.
