@@ -1,6 +1,6 @@
 # Estructuras No Lineales
 
-Implementaciones y ejercicios de estructuras de datos no lineales en **[lenguaje: Java / C++ / Python...]**, desarrollados como parte de **[curso / materia / institución]**.
+Implementaciones y ejercicios de estructuras de datos no lineales en  C++
 
 ## Contenido
 
